@@ -1,0 +1,14 @@
+Package: conformalClassification
+Type: Package
+Title: Transductive and Inductive Conformal Predictions for Classification Problems
+Date: 2017-12-19
+Version: 1.0.0
+Author: Niharika Gauraha and Ola Spjuth
+Maintainer: Niharika Gauraha <niharika.gauraha@farmbio.uu.se>
+Description: Implemention of Transductive Conformal Prediction and Inductive Conformal Prediction for classification problems.
+Depends: graphics, stats, randomForest, parallel, foreach, doParallel, mlbench
+License: GPL-3
+Encoding: UTF-8
+NeedsCompilation: no
+LazyData: true
+

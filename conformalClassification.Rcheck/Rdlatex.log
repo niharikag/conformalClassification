@@ -1,0 +1,336 @@
+Hmm ... looks like a package
+
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./Rd2.tex
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/bk10.clo))
+(/sw/apps/R/x86_64/3.4.3/rackham/lib64/R/share/texmf/tex/latex/Rd.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/tools/bm.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/alltt.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/url/url.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/t1enc.def))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.112, 2017/01/04 Text macros for Inconsolata (msharpe)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex)))))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/sw/apps/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu)))
+Writing index file Rd2.idx
+No file Rd2.aux.
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/sw/apps/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [1{/sw/apps/texlive/
+2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [2] [3]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [4]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [5]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [6]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [7] [8]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (18.08014pt too wide) in paragraph at lines 485--485
+ []\T1/zi4/m/n/10 parTCPClassification(trainSet, testSet, method = "rf", nrTree
+s = 100, nrClusters = 12)[] 
+[9] (/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [10]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+No file Rd2.ind.
+[11] (./Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){/sw/apps/texlive/2016/texm
+f-dist/fonts/enc/dvips/base/8r.enc}{/sw/apps/texlive/2016/texmf-dist/fonts/enc/
+dvips/inconsolata/i4-t1-0.enc}</sw/apps/texlive/2016/texmf-dist/fonts/type1/pub
+lic/inconsolata/Inconsolata-zi4r.pfb></sw/apps/texlive/2016/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvr8a.pfb></sw/apps/texlive/2016/texmf-dist/fonts/type1/urw/t
+imes/utmb8a.pfb></sw/apps/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></sw/apps/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></sw/app
+s/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (11 pages, 94104 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (38 entries accepted, 0 rejected).
+Sorting entries....done (191 comparisons).
+Generating output file Rd2.ind....done (37 lines written, 0 warnings).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./Rd2.tex
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/bk10.clo))
+(/sw/apps/R/x86_64/3.4.3/rackham/lib64/R/share/texmf/tex/latex/Rd.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/tools/bm.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/alltt.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/url/url.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/t1enc.def))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.112, 2017/01/04 Text macros for Inconsolata (msharpe)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex)))))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/sw/apps/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu)))
+Writing index file Rd2.idx
+(./Rd2.aux) (/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/sw/apps/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./Rd2.out) (./Rd2.out)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [1{/sw/apps/texlive/
+2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [2]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [3]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [4]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [5]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [6]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [7]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [8]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (18.08014pt too wide) in paragraph at lines 485--485
+ []\T1/zi4/m/n/10 parTCPClassification(trainSet, testSet, method = "rf", nrTree
+s = 100, nrClusters = 12)[] 
+[9] (/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [10]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) (./Rd2.ind [11]
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 4.
+
+[12]) (./Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information){/sw/apps/texlive/2016/texm
+f-dist/fonts/enc/dvips/base/8r.enc}{/sw/apps/texlive/2016/texmf-dist/fonts/enc/
+dvips/inconsolata/i4-t1-0.enc}</sw/apps/texlive/2016/texmf-dist/fonts/type1/pub
+lic/inconsolata/Inconsolata-zi4r.pfb></sw/apps/texlive/2016/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvr8a.pfb></sw/apps/texlive/2016/texmf-dist/fonts/type1/urw/t
+imes/utmb8a.pfb></sw/apps/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></sw/apps/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></sw/app
+s/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (12 pages, 99054 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (38 entries accepted, 0 rejected).
+Sorting entries....done (191 comparisons).
+Generating output file Rd2.ind....done (39 lines written, 1 warning).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./Rd2.tex
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/bk10.clo))
+(/sw/apps/R/x86_64/3.4.3/rackham/lib64/R/share/texmf/tex/latex/Rd.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/tools/bm.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/alltt.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/url/url.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/t1enc.def))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.112, 2017/01/04 Text macros for Inconsolata (msharpe)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex)))))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/sw/apps/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu)))
+Writing index file Rd2.idx
+(./Rd2.aux) (/sw/apps/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/sw/apps/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/sw/apps/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/sw/apps/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./Rd2.out) (./Rd2.out)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc)
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [1{/sw/apps/texlive/
+2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [2]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [3]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [4]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [5]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [6]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [7]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [8]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (18.08014pt too wide) in paragraph at lines 485--485
+ []\T1/zi4/m/n/10 parTCPClassification(trainSet, testSet, method = "rf", nrTree
+s = 100, nrClusters = 12)[] 
+[9] (/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [10]
+(/sw/apps/texlive/2016/texmf-dist/tex/latex/base/utf8.def) (./Rd2.ind [11]
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 4.
+
+[12]) (./Rd2.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information){/sw/apps/texlive/2016/texm
+f-dist/fonts/enc/dvips/base/8r.enc}{/sw/apps/texlive/2016/texmf-dist/fonts/enc/
+dvips/inconsolata/i4-t1-0.enc}</sw/apps/texlive/2016/texmf-dist/fonts/type1/pub
+lic/inconsolata/Inconsolata-zi4r.pfb></sw/apps/texlive/2016/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvr8a.pfb></sw/apps/texlive/2016/texmf-dist/fonts/type1/urw/t
+imes/utmb8a.pfb></sw/apps/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></sw/apps/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></sw/app
+s/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (12 pages, 99431 bytes).
+Transcript written on Rd2.log.
+Saving output to ‘conformalClassification-manual.pdf’ ...
+Done
+You may want to clean up by 'rm -rf /scratch/RtmpJc5KZ4/Rd2pdf84895350f5f9'

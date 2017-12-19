@@ -1,0 +1,12 @@
+conformalClassification-package	conformalClassification
+conformalClassification	conformalClassification
+CPCalibrationPlot	CPCalibrationPlot
+CPEfficiency	CPEfficiency
+CPErrorRate	CPErrorRate
+CPObsFuzziness	CPObsFuzziness
+CPValidity	CPValidity
+fitModel	fitModel
+ICPClassification	ICPClassification
+parTCPClassification	parTCPClassification
+TCPClassification	TCPClassification
+tcpPValues	tcpPValues

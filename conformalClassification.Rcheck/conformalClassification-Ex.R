@@ -1,0 +1,415 @@
+pkgname <- "conformalClassification"
+source(file.path(R.home("share"), "R", "examples-header.R"))
+options(warn = 1)
+base::assign(".ExTimings", "conformalClassification-Ex.timings", pos = 'CheckExEnv')
+base::cat("name\tuser\tsystem\telapsed\n", file=base::get(".ExTimings", pos = 'CheckExEnv'))
+base::assign(".format_ptime",
+function(x) {
+  if(!is.na(x[4L])) x[1L] <- x[1L] + x[4L]
+  if(!is.na(x[5L])) x[2L] <- x[2L] + x[5L]
+  options(OutDec = '.')
+  format(x[1L:3L], digits = 7L)
+},
+pos = 'CheckExEnv')
+
+### * </HEADER>
+library('conformalClassification')
+
+base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+cleanEx()
+nameEx("CPCalibrationPlot")
+### * CPCalibrationPlot
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: CPCalibrationPlot
+### Title: Plots the calibration plot
+### Aliases: CPCalibrationPlot
+
+### ** Examples
+
+## load the library
+library(mlbench)
+#library(caret)
+library(conformalClassification)
+
+## load the DNA dataset
+data(DNA)
+originalData <- DNA
+
+## make sure first column is always the label and class labels are always 1, 2, ...
+nrAttr = ncol(originalData) #no of attributes
+tempColumn = originalData[, 1]
+originalData[, 1] = originalData[, nrAttr]
+originalData[, nrAttr] = tempColumn
+originalData[, 1] = as.factor(originalData[, 1])
+originalData[, 1] = as.numeric(originalData[, 1])
+
+## partition the data into training and test set
+#result = createDataPartition(originalData[, 1], p = 0.8, list = FALSE)
+size = nrow(originalData)
+result = sample(1:size,  0.8*size)
+trainingSet = originalData[result, ]
+testSet = originalData[-result, ]
+
+##ICP classification
+pValues = ICPClassification(trainingSet, testSet)
+CPCalibrationPlot(pValues, testSet, "blue")
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("CPCalibrationPlot", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("CPEfficiency")
+### * CPEfficiency
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: CPEfficiency
+### Title: Computes efficiency of a conformal predictor, which is defined
+###   as the ratio of predictions with more than one class over the size of
+###   the testset
+### Aliases: CPEfficiency
+
+### ** Examples
+
+## load the library
+library(mlbench)
+#library(caret)
+library(conformalClassification)
+
+## load the DNA dataset
+data(DNA)
+originalData <- DNA
+
+## make sure first column is always the label and class labels are always 1, 2, ...
+nrAttr = ncol(originalData) #no of attributes
+tempColumn = originalData[, 1]
+originalData[, 1] = originalData[, nrAttr]
+originalData[, nrAttr] = tempColumn
+originalData[, 1] = as.factor(originalData[, 1])
+originalData[, 1] = as.numeric(originalData[, 1])
+
+## partition the data into training and test set
+#result = createDataPartition(originalData[, 1], p = 0.8, list = FALSE)
+size = nrow(originalData)
+result = sample(1:size,  0.8*size)
+
+trainingSet = originalData[result, ]
+testSet = originalData[-result, ]
+
+##ICP classification
+pValues = ICPClassification(trainingSet, testSet)
+testLabels = testSet[,1]
+CPEfficiency(pValues, testLabels)
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("CPEfficiency", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("CPErrorRate")
+### * CPErrorRate
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: CPErrorRate
+### Title: Computes error rate of a conformal predictor, which is defined
+###   as the ratio of predictions with missing true class lables over the
+###   size of the testset
+### Aliases: CPErrorRate
+
+### ** Examples
+
+## load the library
+library(mlbench)
+#library(caret)
+library(conformalClassification)
+
+## load the DNA dataset
+data(DNA)
+originalData <- DNA
+
+## make sure first column is always the label and class labels are always 1, 2, ...
+nrAttr = ncol(originalData) #no of attributes
+tempColumn = originalData[, 1]
+originalData[, 1] = originalData[, nrAttr]
+originalData[, nrAttr] = tempColumn
+originalData[, 1] = as.factor(originalData[, 1])
+originalData[, 1] = as.numeric(originalData[, 1])
+
+## partition the data into training and test set
+#result = createDataPartition(originalData[, 1], p = 0.8, list = FALSE)
+size = nrow(originalData)
+result = sample(1:size,  0.8*size)
+
+trainingSet = originalData[result, ]
+testSet = originalData[-result, ]
+
+##ICP classification
+pValues = ICPClassification(trainingSet, testSet)
+testLabels = testSet[,1]
+CPErrorRate(pValues, testLabels)
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("CPErrorRate", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("CPObsFuzziness")
+### * CPObsFuzziness
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: CPObsFuzziness
+### Title: Computes observed fuzziness, which is defined as the sum of all
+###   p-values for the incorrect class labels.
+### Aliases: CPObsFuzziness
+
+### ** Examples
+
+## load the library
+library(mlbench)
+#library(caret)
+library(conformalClassification)
+
+## load the DNA dataset
+data(DNA)
+originalData <- DNA
+
+## make sure first column is always the label and class labels are always 1, 2, ...
+nrAttr = ncol(originalData) #no of attributes
+tempColumn = originalData[, 1]
+originalData[, 1] = originalData[, nrAttr]
+originalData[, nrAttr] = tempColumn
+originalData[, 1] = as.factor(originalData[, 1])
+originalData[, 1] = as.numeric(originalData[, 1])
+
+## partition the data into training and test set
+#result = createDataPartition(originalData[, 1], p = 0.8, list = FALSE)
+size = nrow(originalData)
+result = sample(1:size,  0.8*size)
+
+trainingSet = originalData[result, ]
+testSet = originalData[-result, ]
+
+##ICP classification
+pValues = ICPClassification(trainingSet, testSet)
+testLabels = testSet[,1]
+CPObsFuzziness(pValues, testLabels)
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("CPObsFuzziness", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("CPValidity")
+### * CPValidity
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: CPValidity
+### Title: Computes the deviation from exact validity as the Euclidean norm
+###   of the difference of the observed error and the expected error
+### Aliases: CPValidity
+
+### ** Examples
+
+## load the library
+library(mlbench)
+#library(caret)
+library(conformalClassification)
+
+## load the DNA dataset
+data(DNA)
+originalData <- DNA
+
+## make sure first column is always the label and class labels are always 1, 2, ...
+nrAttr = ncol(originalData) #no of attributes
+tempColumn = originalData[, 1]
+originalData[, 1] = originalData[, nrAttr]
+originalData[, nrAttr] = tempColumn
+originalData[, 1] = as.factor(originalData[, 1])
+originalData[, 1] = as.numeric(originalData[, 1])
+
+## partition the data into training and test set
+#result = createDataPartition(originalData[, 1], p = 0.8, list = FALSE)
+size = nrow(originalData)
+result = sample(1:size,  0.8*size)
+
+trainingSet = originalData[result, ]
+testSet = originalData[-result, ]
+
+##ICP classification
+pValues = ICPClassification(trainingSet, testSet)
+testLabels = testSet[,1]
+CPValidity(pValues, testLabels)
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("CPValidity", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("ICPClassification")
+### * ICPClassification
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: ICPClassification
+### Title: Class-conditional Inductive conformal classifier for multi-class
+###   problems
+### Aliases: ICPClassification
+
+### ** Examples
+
+## load the library
+library(mlbench)
+#library(caret)
+library(conformalClassification)
+
+## load the DNA dataset
+data(DNA)
+originalData <- DNA
+
+## make sure first column is always the label and class labels are always 1, 2, ...
+nrAttr = ncol(originalData) #no of attributes
+tempColumn = originalData[, 1]
+originalData[, 1] = originalData[, nrAttr]
+originalData[, nrAttr] = tempColumn
+originalData[, 1] = as.factor(originalData[, 1])
+originalData[, 1] = as.numeric(originalData[, 1])
+
+## partition the data into training and test set
+#result = createDataPartition(originalData[, 1], p = 0.8, list = FALSE)
+size = nrow(originalData)
+result = sample(1:size,  0.8*size)
+
+trainingSet = originalData[result, ]
+testSet = originalData[-result, ]
+
+##ICP classification
+pValues = ICPClassification(trainingSet, testSet)
+#perfVlaues = pValues2PerfMetrics(pValues, testSet)
+#print(perfVlaues)
+#CPCalibrationPlot(pValues, testSet, "blue")
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("ICPClassification", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("TCPClassification")
+### * TCPClassification
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: TCPClassification
+### Title: Class-conditional transductive conformal classifier for
+###   multi-class problems
+### Aliases: TCPClassification
+
+### ** Examples
+
+## load the library
+#library(mlbench)
+#library(caret)
+#library(conformalClassification)
+
+## load the DNA dataset
+#data(DNA)
+#originalData <- DNA
+
+## make sure first column is always the label and class labels are always 1, 2, ...
+#nrAttr = ncol(originalData) #no of attributes
+#tempColumn = originalData[, 1]
+#originalData[, 1] = originalData[, nrAttr]
+#originalData[, nrAttr] = tempColumn
+#originalData[, 1] = as.factor(originalData[, 1])
+#originalData[, 1] = as.numeric(originalData[, 1])
+
+## partition the data into training and test set
+#result = createDataPartition(originalData[, 1], p = 0.8, list = FALSE)
+#trainingSet = originalData[result, ]
+#testSet = originalData[-result, ]
+
+##reduce the size of the training set, because TCP is slow
+#result = createDataPartition(trainingSet[, 1], p=0.8, list=FALSE)
+#trainingSet = trainingSet[-result, ]
+
+##TCP classification
+#pValues = TCPClassification(trainingSet, testSet)
+#perfVlaues = pValues2PerfMetrics(pValues, testSet)
+#print(perfVlaues)
+#CPCalibrationPlot(pValues, testSet, "blue")
+#not run
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("TCPClassification", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("parTCPClassification")
+### * parTCPClassification
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: parTCPClassification
+### Title: Class-conditional transductive conformal classifier for
+###   multi-class problems, paralled computations
+### Aliases: parTCPClassification
+
+### ** Examples
+
+## load the library
+#library(mlbench)
+#library(caret)
+#library(conformalClassification)
+
+## load the DNA dataset
+#data(DNA)
+#originalData <- DNA
+
+## make sure first column is always the label and class labels are always 1, 2, ...
+#nrAttr = ncol(originalData) #no of attributes
+#tempColumn = originalData[, 1]
+#originalData[, 1] = originalData[, nrAttr]
+#originalData[, nrAttr] = tempColumn
+#originalData[, 1] = as.factor(originalData[, 1])
+#originalData[, 1] = as.numeric(originalData[, 1])
+
+## partition the data into training and test set
+#result = createDataPartition(originalData[, 1], p = 0.8, list = FALSE)
+#trainingSet = originalData[result, ]
+#testSet = originalData[-result, ]
+
+##ICP classification
+#pValues = parTCPClassification(trainingSet, testSet)
+#perfVlaues = pValues2PerfMetrics(pValues, testSet)
+#print(perfVlaues)
+#CPCalibrationPlot(pValues, testSet, "blue")
+#not run
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("parTCPClassification", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+### * <FOOTER>
+###
+options(digits = 7L)
+base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+grDevices::dev.off()
+###
+### Local variables: ***
+### mode: outline-minor ***
+### outline-regexp: "\\(> \\)?### [*]+" ***
+### End: ***
+quit('no')

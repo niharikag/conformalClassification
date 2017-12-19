@@ -1,0 +1,27 @@
+CPCalibrationPlot       Plots the calibration plot
+CPEfficiency            Computes efficiency of a conformal predictor,
+                        which is defined as the ratio of predictions
+                        with more than one class over the size of the
+                        testset
+CPErrorRate             Computes error rate of a conformal predictor,
+                        which is defined as the ratio of predictions
+                        with missing true class lables over the size of
+                        the testset
+CPObsFuzziness          Computes observed fuzziness, which is defined
+                        as the sum of all p-values for the incorrect
+                        class labels.
+CPValidity              Computes the deviation from exact validity as
+                        the Euclidean norm of the difference of the
+                        observed error and the expected error
+ICPClassification       Class-conditional Inductive conformal
+                        classifier for multi-class problems
+TCPClassification       Class-conditional transductive conformal
+                        classifier for multi-class problems
+conformalClassification
+                        A Conformal Prediction R Package for
+                        Classification
+fitModel                Fits the model and returns the fitted model
+parTCPClassification    Class-conditional transductive conformal
+                        classifier for multi-class problems, paralled
+                        computations
+tcpPValues              Fits the model and computes p-values
