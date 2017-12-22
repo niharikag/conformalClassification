@@ -437,7 +437,7 @@ Loading required package: mlbench
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  4.215 0.173 5.937 0 0 
+Time elapsed:  4.964 0.402 7.283 0 0 
 > grDevices::dev.off()
 null device 
           1 

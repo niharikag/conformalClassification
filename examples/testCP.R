@@ -66,7 +66,7 @@ pValues2PerfMetrics = function(matPValues, testSet, sigfLevel = 0.05){
   originalData[, 1] = as.numeric(originalData[, 1])
 
   #partition into training and test set
-  result = createDataPartition(originalData[, 1], p = 0.99, list = FALSE)
+  result = createDataPartition(originalData[, 1], p = 0.8, list = FALSE)
 
   trainingSet = originalData[result, ]
   testSet = originalData[-result, ]
